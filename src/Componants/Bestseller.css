@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Crete+Round:ital@0;1&family=Fondamento:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&display=swap');
+
+
+.border-top {
+  border-top: 1px dashed black;
+  width: 100%;
+  border-image: repeating-linear-gradient(to right, gray 0, gray 10px, transparent 10px, transparent 20px) 100% 1;
+  border-top-style: solid;
+  border-top-width: 1px;
+
+}
+
+.productname{
+    font-family: 'Courier Prime', serif;
+    color:#46B635 ;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.productdisc{
+    font-family: 'Courier Prime', serif;
+    font-weight: 700;
+}
+
+.productprice{
+    font-family: 'Courier Prime', serif;
+    font-size: 20px;
+}
+
+.btn{
+    font-family: 'Chathura',serif;
+}
